@@ -8,6 +8,37 @@ body {
 	background: #011F3F;
 }
 
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+	border-bottom: 0.5px solid #faf2bf;
+}
+
+.logo,
+.how {
+	margin: 2em;
+	padding: 0 1em;
+}
+header .logo a{
+	font-size: 1.6rem;
+	box-sizing: border-box;
+	padding: .3em;
+	text-decoration: none;
+	color: #fef2bf;
+	border: 1px solid #fef2bf;
+}
+.how {
+	font-size: 1rem;
+	box-sizing: border-box;
+	padding: .3em;
+	text-decoration: none;
+	color: #fef2bf;
+	border: 1px solid #fef2bf;
+}
+
 main {
 	width: 80%;
 	margin: auto;
@@ -66,4 +97,24 @@ main .squr-wrapper {
 	0% { opacity: 1; }
 	50% { opacity: 0; }
 	100% { opacity: 1; }
+}
+
+.how-section {
+	margin: 10rem auto;
+	text-align: center;
+	width: 80%;
+	background: #fef2bf;
+	border-radius: 12px;
+}
+
+.how-section h4 {
+	font-size: 1.6rem;
+	padding: .5em 0;
+}
+
+.how-section p {
+	width: 30ch;
+	font-size: 1rem;
+	padding: .3em 0;
+	margin: auto;
 }
